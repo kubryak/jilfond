@@ -1,0 +1,38 @@
+.sidebar {
+  margin: 0 0 0 20px;
+  border-right: 1px solid #e0e0e0;
+  width: calc(1266px - 975px);
+}
+
+.sidebar__title {
+  font-size: 16px;
+  line-height: 140%;
+  color: #333;
+  margin-top: 27px;
+}
+
+.sidebar__input {
+  padding: 15px 16px;
+  margin-top: 22px;
+  min-width: 240px;
+  border: 1.5px solid #e9ecef;
+  border-radius: 8px;
+  color: #76787d;
+}
+
+.sidebar__input:focus {
+  outline: 1.5px solid #656668;
+}
+
+.sidebar__title-result {
+  font-size: 16px;
+  line-height: 140%;
+  color: #333;
+  margin-top: 22px;
+}
+
+.sidebar__text-result {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #76787d;
+}

@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header__logo {
+  color: red;
+  margin: 0;
+}
+
+.header__user-name {
+  color: #333;
+  align-self: baseline;
+}
