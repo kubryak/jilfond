@@ -29,10 +29,57 @@
   line-height: 140%;
   color: #333;
   margin-top: 22px;
+  margin-bottom: 0;
 }
 
 .sidebar__text-result {
   margin-top: 10px;
   font-size: 14px;
+  color: #76787d;
+}
+
+.sidebar__card {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 240px;
+  height: 70px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.sidebar__card_type_active {
+  border: 1px solid #e0e0e0;
+}
+
+.sidebar__card-info_type_active {
+  background-color: #e0e0e0;
+}
+
+.sidebar__card-img {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sidebar__card-info {
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.sidebar__card-name {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.sidebar__card-email {
+  margin: 5px 0 0 0;
+  font-weight: 400;
   color: #76787d;
 }

@@ -13,9 +13,6 @@ export default function Main() {
       })
       .catch(err => console.log(err))
   }
-
-
-
   return (
     <div className='main'>
       <Sidebar onSearch={getUsers} />

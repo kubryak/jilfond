@@ -9,7 +9,7 @@ export default function MainPage() {
       {/* <div className='profile__result'>
         <img src={user_img} className='profile__user-img' alt='Фотография сотрудника' />
         <div className='profile__info'>
-          <h2 className='profile__name'>Ervin Howell</h2>
+          <h3 className='profile__name'>Ervin Howell</h3>
           <p className='profile__contact'><span className='profile__span'>email:</span> Shanna@melissa.tv</p>
           <p className='profile__contact'><span className='profile__span'>phone:</span> 010-692-6593 x09125</p>
           <p className='profile__about-title'>О себе:</p>
