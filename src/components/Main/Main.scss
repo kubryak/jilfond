@@ -1,9 +1,11 @@
+@import '../../styles/variables.scss';
+
 .main {
   max-width: 1266px;
   min-height: 575px;
   margin-top: 26px;
-  background-color: #fdfdfd;
+  background-color: $background-primary-color;
   display: flex;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: $border-radius-bigger;
+  box-shadow: $main-box-shadow;
 }
